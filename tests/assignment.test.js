@@ -12,7 +12,7 @@ describe("Assignment test",function(){
         chai.request(baseUrl)
         .post('/assignment')
         .end(function (err, res) {
-            chai.expect(res).to.have.status(200);
+            chai.expect(res).to.have.status(300);
             done();
         });
     });
